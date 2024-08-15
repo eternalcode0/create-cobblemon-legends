@@ -1,0 +1,286 @@
+{
+    "SODIUM": {
+        "text": {
+            "text": "Sodium"
+        },
+        "description": {
+            "text": "The premier fps-boosting mod set"
+        },
+        "mods": [
+            "sodium",
+            "indium",
+            "reeses-sodium-options",
+            "sodium-extra",
+            "iris"
+        ]
+    },
+    "VOICECHAT": {
+        "text": {
+            "text": "Voice Chat"
+        },
+        "description": null,
+        "mods": [
+            "voicechat",
+            "vcinteraction"
+        ]
+    },
+    "CREATE": {
+        "text": {
+            "text": "Create Mod"
+        },
+        "description": {
+            "text": "Create and all it's side-mods"
+        },
+        "mods": [
+            "create",
+            "bellsandwhistles",
+            "create_enchantment_industry",
+            "create_high_pressure",
+            "create_jetpack",
+            "create_power_loader",
+            "create_structures",
+            "createdeco",
+            "delightfulcreators",
+            "garnished",
+            "railways"
+        ]
+    },
+    "COBBLEMON": {
+        "text": {
+            "text": "Cobblemon"
+        },
+        "description": {
+            "text": "Cobblemon and all it's side-mods"
+        },
+        "mods": [
+            "cobblemon",
+            "cobbled-shiny-particles",
+            "cobblemon_capturexp",
+            "cobblemon_chaining",
+            "cobblemon_counter",
+            "cobblemon_move_inspector",
+            "cobblemonbreakouts",
+            "cobblemonintegrations",
+            "cobbledex",
+            "cobblenav",
+            "cobblepedia",
+            "cobbreeding",
+            "mythsandlegends",
+            "wherearemytms"
+        ]
+    },
+    "DYN_CROSSHAIR": {
+        "text": {
+            "text": "Dynamic Crosshair"
+        },
+        "description": null,
+        "mods": [
+            "dynamiccrosshair",
+            "dynamiccrosshaircompat"
+        ]
+    },
+    "EMI": {
+        "text": {
+            "text": "EMI/JEI"
+        },
+        "description": {
+            "text": "All things EMI/JEI, providing an item/recipe encyclopedia"
+        },
+        "mods": [
+            "emi",
+            "emi_enchanting",
+            "emi_loot",
+            "emi_ores",
+            "emiffect",
+            "emitrades",
+            "jei",
+            "jeresources",
+            "justenoughprofessions"
+        ]
+    },
+    "IPN": {
+        "text": {
+            "text": "Inventory Profiles"
+        },
+        "description": {
+            "text": "All things Inventory Profiles, providing an item/recipe encyclopedia"
+        },
+        "mods": [
+            "inventoryprofilesnext",
+            "libipn"
+        ]
+    },
+    "YUNGS": {
+        "text": {
+            "text": "Yung's Mods"
+        },
+        "description": {
+            "text": "All of the Yung's Worldgen mods"
+        },
+        "mods": [
+            "betterdeserttemples",
+            "betterendisland",
+            "betterdungeons",
+            "betterfortresses",
+            "betterjungletemples",
+            "bettermineshafts",
+            "betteroceanmonuments",
+            "betterstrongholds",
+            "betterwitchhuts",
+            "yungsbridges",
+            "yungsextras"
+        ]
+    },
+    "CLIENT": {
+        "text": {
+            "text": "Clients"
+        },
+        "description": {
+            "text": "Mods that make sense on singleplayer / multiplayer clients, but not on dedicated servers"
+        },
+        "mods": [
+            "sodium",
+            "indium",
+            "reeses-sodium-options",
+            "sodium-extra",
+            "iris",
+            "emi",
+            "emi_enchanting",
+            "emi_loot",
+            "emi_ores",
+            "emiffect",
+            "emitrades",
+            "jei",
+            "jeresources",
+            "justenoughprofessions",
+            "borderlessmining",
+            "distanthorizons",
+            "dynamic_fps",
+            "dynamiccrosshair",
+            "dynamiccrosshaircompat",
+            "enhancedblockentities",
+            "entityculling",
+            "entity_model_features",
+            "entity_texture_features",
+            "euphoria_patcher",
+            "fastquit",
+            "fabricskyboxes",
+            "fadeless",
+            "fsb-interop",
+            "foodeffecttooltips",
+            "immediatelyfast",
+            "inventoryprofilesnext",
+            "libipn",
+            "leavemybarsalone",
+            "adaptive-tooltips",
+            "amecs",
+            "animatica",
+            "charmonium",
+            "clienttweaks",
+            "continuity",
+            "lambdynlights",
+            "mightyarchitect",
+            "moreculling",
+            "notenoughanimations",
+            "nvidium",
+            "paginatedadvancements",
+            "presencefootsteps",
+            "reacharound",
+            "rrls",
+            "shouldersurfing",
+            "simplehudenhanced",
+            "zoomify"
+        ]
+    },
+    "SERVERISH": {
+        "text": {
+            "text": "Singleplayer / Server"
+        },
+        "description": {
+            "text": "Mods that make sense on both singleplayer and dedicated servers, but not multiplayer clients"
+        },
+        "mods": [
+            "betterdeserttemples",
+            "betterendisland",
+            "betterdungeons",
+            "betterfortresses",
+            "betterjungletemples",
+            "bettermineshafts",
+            "betteroceanmonuments",
+            "betterstrongholds",
+            "betterwitchhuts",
+            "yungsbridges",
+            "yungsextras",
+            "lithium",
+            "apathy",
+            "ctov",
+            "clumps",
+            "convenient-mobgriefing",
+            "geophilic",
+            "glore",
+            "incendium",
+            "ibo",
+            "leavesbegone",
+            "lenientdeath",
+            "letmedespawn",
+            "lithostitched",
+            "mr_ctov_createstructures",
+            "mr_ctov_farmersdelightcompat",
+            "tectonic",
+            "myloot",
+            "noisium",
+            "nullscape",
+            "rightclickharvest",
+            "sleepwarp"
+        ]
+    },
+    "MULTISH": {
+        "text": {
+            "text": "Multiplayer / Server"
+        },
+        "description": {
+            "text": "Mods that make sense on both multiplayer clients and dedicated servers, but not singleplayer clients"
+        },
+        "mods": [
+            "voicechat",
+            "vcinteraction",
+            "watut",
+            "opaccreatesupport",
+            "openpartiesandclaims",
+            "smwyg"
+        ]
+    },
+    "SINGLE": {
+        "text": {
+            "text": "Singleplayer-Only"
+        },
+        "description": {
+            "text": "Mods that only make sense in singleplayer"
+        },
+        "mods": [
+            "cherishedworlds",
+            "yeetusexperimentus"
+        ]
+    },
+    "MULTI": {
+        "text": {
+            "text": "Multiplayer-Only"
+        },
+        "description": {
+            "text": "Mods that only make sense in multiplayer"
+        },
+        "mods": [
+        ]
+    },
+    "SERVER": {
+        "text": {
+            "text": "Server-Only"
+        },
+        "description": {
+            "text": "Disables client-sided mods"
+        },
+        "mods": [
+            "vmp"
+        ]
+    }
+}

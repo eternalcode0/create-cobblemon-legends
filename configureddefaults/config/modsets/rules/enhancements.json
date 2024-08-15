@@ -1,0 +1,87 @@
+{
+  "text": {
+    "text": "Enhancements",
+    "color": "yellow"
+  },
+  "description": "The optional mods that mostly just improve your experience",
+  "rules": [
+    {
+      "text": "Resource Pack Support",
+      "description": "Extra mods included for supporting additional resource packs and features. Usually those made for Optifine, Continuity, etc.",
+      "controller": {
+        "type": "rules_group",
+        "collapsed": true,
+        "rules": [
+          {
+            "text": "Animatica",
+            "description": "Support more animated textures than just items and blocks. Only useful if using specific resource packs.",
+            "controller": {
+              "type": "boolean",
+              "mod": "animatica"
+            }
+          },
+          {
+            "text": "Skyboxes",
+            "description": "Support more skyboxes from other resource packs",
+            "controller": {
+              "type": "mods_group",
+              "mods": ["fabricskyboxes", "fsb-interop"]
+            }
+          },
+          {
+            "text": "Entity Features",
+            "description": "Support more entity features and capabilities. Fresh Moves uses these.",
+            "controller": {
+              "type": "mods_group",
+              "mods": ["entity_model_features", "entity_texture_features"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "text": "Immersion",
+      "description": "Extra mods included for providing more details for that extra vanilla+ feel.",
+      "controller": {
+        "type": "rules_group",
+        "collapsed": true,
+        "rules": [
+          {
+            "text": "Charmonium",
+            "description": "Provides ambient sound effects based off what biome you're in.",
+            "controller": {
+              "type": "boolean",
+              "mod": "charmonium"
+            }
+          },
+          {
+            "text": "Dynamic Lights",
+            "description": "Provides extra light when entities and their held items should be providing light",
+            "controller": {
+              "type": "boolean",
+              "mod": "lambdynlights"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "text": "Quality of Life",
+      "description": "Extra mods included for providing assistance where it's not necessary but occassionally desired",
+      "controller": {
+        "type": "rules_group",
+        "collapsed": true,
+        "rules": [
+          {
+            "text": "Dynamic Crosshair",
+            "description": "Provides a crosshair that changes based off what actions you can perform with what you're holding and looking at",
+            "controller": {
+              "type": "boolean",
+              "mod": "DYN_CROSSHAIR"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

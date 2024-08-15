@@ -1,0 +1,13 @@
+name = "Better [Cobblemon] Mass Outbreaks"
+filename = "Better Mass Outbreaks v1.3.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fFCUWykD/versions/PH9HZItP/Better%20Mass%20Outbreaks%20v1.3.zip"
+hash-format = "sha1"
+hash = "02629dd22a2cee1a78efb1c0787d4b71c7c08aa9"
+
+[update]
+[update.modrinth]
+mod-id = "fFCUWykD"
+version = "PH9HZItP"

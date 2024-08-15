@@ -1,0 +1,13 @@
+name = "Cobblemon Create Compat"
+filename = "Cobblemon Create Compat.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FlBGHs9w/versions/VAiL6egi/Cobblemon%20Create%20Compat.zip"
+hash-format = "sha1"
+hash = "7f16360f133b7f10358b1c655dd45b7858981ebc"
+
+[update]
+[update.modrinth]
+mod-id = "FlBGHs9w"
+version = "VAiL6egi"

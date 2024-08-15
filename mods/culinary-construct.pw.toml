@@ -1,0 +1,13 @@
+name = "Culinary Construct"
+filename = "culinaryconstruct-fabric-5.2.1+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/i0hioBIg/versions/DD3ouXQC/culinaryconstruct-fabric-5.2.1%2B1.20.1.jar"
+hash-format = "sha1"
+hash = "fcc49ebbd324049cab62ed6f48f684183a6f9a55"
+
+[update]
+[update.modrinth]
+mod-id = "i0hioBIg"
+version = "DD3ouXQC"

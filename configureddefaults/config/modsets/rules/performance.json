@@ -1,0 +1,17 @@
+{
+  "text": {
+    "text": "Performance",
+    "color": "green"
+  },
+  "description": "Mods that should help improve FPS and TPS.\nYou should probably leave most of these as is unless you know what you're doing.",
+  "rules": [
+    {
+      "text": "Sodium Pack",
+      "description": "All the mods associated with sodium, including shaders",
+      "controller": {
+        "type": "boolean",
+        "mod": "SODIUM"
+      }
+    }
+  ]
+}

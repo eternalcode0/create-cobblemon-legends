@@ -1,0 +1,13 @@
+name = "Cobblemon Integrations"
+filename = "cobblemonintegrations-1.20.1-1.0.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NPCfuUI4/versions/E8dUsctj/cobblemonintegrations-1.20.1-1.0.6.jar"
+hash-format = "sha1"
+hash = "32f572507e78e967bf34b89b698e7d2c84ffdd4e"
+
+[update]
+[update.modrinth]
+mod-id = "NPCfuUI4"
+version = "E8dUsctj"

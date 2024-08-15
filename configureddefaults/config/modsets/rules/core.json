@@ -1,0 +1,160 @@
+{
+  "text": {
+    "text": "Core",
+    "bold": true,
+    "color": "red"
+  },
+  "description": "The feature/functionality mods that define this modpack",
+  "rules": [
+    {
+      "text": "Singleplayer",
+      "description": [
+        "Includes worldgen mods like ",
+        { "text": "Tectonic", "color": "aqua" },
+        " and server performance mods like ",
+        { "text": "Lithium", "color": "aqua" },
+        " which are used for integrated/dedicated servers.\n\n",
+        {
+          "text": "Disable if only playing in Multiplayer",
+          "color": "gold"
+        }
+      ],
+      "controller": {
+        "type": "boolean",
+        "mod": "SERVERISH"
+      }
+    },
+    {
+      "text": "Multiplayer",
+      "description": [
+        "Includes Multiplayer QoL mods like ",
+        { "text": "Simple Voice Chat", "color": "aqua" },
+        " and the chunk claiming mod ",
+        { "text": "Open Parties and Claims", "color": "aqua" },
+        " which are used for integrated/dedicated servers.\n\n",
+        {
+          "text": "Disable if only playing in Singleplayer",
+          "color": "gold"
+        }
+      ],
+      "controller": {
+        "type": "boolean",
+        "mod": "MULTISH"
+      }
+    },
+    {
+      "text": "Advanced: Dedicated Server",
+      "description": "Only use these to generate the disabled mod lists for dedicated servers. Uncheck all boxes",
+      "controller": {
+        "type": "rules_group",
+        "rules": [
+          {
+            "text": "Singleplayer Only Mods",
+            "controller": {
+              "type": "boolean",
+              "mod": "SINGLE"
+            }
+          },
+          {
+            "text": "Client-Side Mods",
+            "controller": {
+              "type": "boolean",
+              "mod": "CLIENT"
+            }
+          },
+          {
+            "text": "Multiplayer Only Mods",
+            "controller": {
+              "type": "boolean",
+              "mod": "MULTI"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "text": "Feature / Functionality",
+      "description": "These mods introduce blocks, entities, mechanics, etc.\nChanging these may break existing worlds or prevent you from joining servers",
+      "controller": {
+        "type": "rules_group",
+        "collapsed": true,
+        "rules": [
+          {
+            "text": {
+              "text": "Did you read my description?!?",
+              "bold": true,
+              "color": "dark_red"
+            },
+            "description": "Disabling anything here may break existing worlds or prevent you from joining servers. Don't use this unless you know what you're doing!",
+            "controller": {
+              "type": "label"
+            }
+          },
+          {
+            "text": "Create + Side-Mods",
+            "description": "Disables all things 'Create', the steampunk automation mod",
+            "controller": {
+              "type": "boolean",
+              "mod": "CREATE"
+            }
+          },
+          {
+            "text": "Cobblemon + Side-Mods",
+            "description": "Disables all things 'Cobblemon', the Pokemon in Minecraft mod",
+            "controller": {
+              "type": "boolean",
+              "mod": "COBBLEMON"
+            }
+          },
+          {
+            "text": "Macaw's Building Blocks",
+            "description": "All of the Macaw's mods for introducing different building blocks",
+            "controller": {
+              "type": "mods_group",
+              "mods": [
+                "mcwbridges",
+                "mcwdoors",
+                "mcwfences",
+                "mcwfurnitures",
+                "mcwlights",
+                "mcwpaths",
+                "mcwroofs",
+                "mcwtrpdoors",
+                "mcwwindows"
+              ]
+            }
+          },
+          {
+            "text": "Fuzs' Easy Mods",
+            "description": "Fuzs introduces some mods that make basic improvments to vanilla mechanics.",
+            "controller": {
+              "type": "mods_group",
+              "mods": [
+                "easyanvils",
+                "easymagic",
+                "easyshulkerboxes",
+                "universalenchants"
+              ]
+            }
+          },
+          {
+            "text": "Trinkets: Extra equipables",
+            "description": "Trinkets allows for equipping items that usually require a different inventory slot on your person, saving you a slot.",
+            "controller": {
+              "type": "mods_group",
+              "mods": ["charmofundying", "elytraslot"]
+            }
+          },
+          {
+            "text": "Extra Anvil/Enchantments Enhancements",
+            "description": "A couple bonus mods to improve anvils, enchantments and the like",
+            "controller": {
+              "type": "mods_group",
+              "mods": ["tinkerers_smithing", "grindenchantments"]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

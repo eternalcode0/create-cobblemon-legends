@@ -1,0 +1,13 @@
+name = "Incendium Biomes Only"
+filename = "ibo-2.0.0+1.19.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gmUU3UdW/versions/m0szHoNH/ibo-2.0.0%2B1.19.jar"
+hash-format = "sha1"
+hash = "b85053bfabb0fbeb8b84dc8b97ebadc207847dd9"
+
+[update]
+[update.modrinth]
+mod-id = "gmUU3UdW"
+version = "m0szHoNH"
